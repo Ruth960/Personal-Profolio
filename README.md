@@ -5,7 +5,7 @@ A portfolio website showcasing projects and skills
 
 Welcome to my personal portfolio website! This site showcases my skills, projects, and a little bit about me.
 
-![Portfolio Screenshot 1](https://github.com/Ruth960/Personal-Profolio/blob/main/profolio%20screnshot1.png) <!-- Replace with an actual screenshot URL -->
+![Portfolio Screenshot 1](https://github.com/Ruth960/Personal-Profolio/blob/main/profolio%20screnshot1.png) 
 ![Portfolio Screenshot 2](https://github.com/Ruth960/Personal-Profolio/blob/main/profolio%20screnshot2.png)
 ![Portfolio Screenshot 3](https://github.com/Ruth960/Personal-Profolio/blob/main/profolio%20screnshot3.png)
 
