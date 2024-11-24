@@ -1,0 +1,206 @@
+/* General Reset and Body Styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: linear-gradient(135deg, #555fec 0%, #be6d6d 25%, #fad0c4 50%, #4a1170c2 75%, #224352 100%);
+  color: black;
+  min-height: 100vh;
+}
+
+/* Header Styling */
+header {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 1rem;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Technical Skills Section */
+.technicalskills {
+ 
+}
+
+.technicalskills h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: black;
+  text-align: left; /* Align header to the left */
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Space between skills */
+  text-align: left; /* Align all content to the left */
+}
+
+.skill {
+  font-size: 1.2rem;
+  color: black;
+  line-height: 1.5;
+  padding: 0; /* Remove padding */
+}
+
+/* Navigation */
+nav {
+  display: flex;
+  justify-content: flex-end;
+}body
+
+nav a {
+  color: #333;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  margin-left: 1rem;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #0066cc;
+}
+
+/* Main Content Styling */
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+#hero {
+  text-align: center;
+  padding: 4rem 0;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.hero-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.profile-photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Projects Section */
+section {
+  margin-bottom: 4rem;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.project-card {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.project-card h3 {
+  margin-bottom: 1rem;
+}
+
+.view-project {
+  display: inline-block;
+  margin-top: 1rem;
+  color: #0066cc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Contact Form Styling */
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+#contact-form input,
+#contact-form textarea {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#contact-form button {
+  background-color: #0066cc;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#contact-form button:hover {
+  background-color: #0052a3;
+}
+
+/* Footer */
+footer {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+.social-links {
+  margin-bottom: 1rem;
+}
+
+.social-links a {
+  color: #333;
+  text-decoration: none;
+  margin: 0 0.5rem;
+}
+
+/* Scroll to Top Button */
+#scrollToTop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  header {
+    position: static;
+  }
+
+  nav {
+    justify-content: center;
+  }
+
+  .hero-content {
+    flex-direction: column;
+  }
+}
