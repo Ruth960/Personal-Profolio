@@ -3,13 +3,10 @@ A portfolio website showcasing projects and skills
 
 Welcome to my personal portfolio website! This site showcases my skills, projects, and a little bit about me.
 
-![Portfolio Screenshot 1](https://github.com/Ruth960/Personal-Profolio/blob/main/profolio%20screnshot1.png) 
-![Portfolio Screenshot 2](https://github.com/Ruth960/Personal-Profolio/blob/main/profolio%20screnshot2.png)
-![Portfolio Screenshot 3](https://github.com/Ruth960/Personal-Profolio/blob/main/profolio%20screnshot3.png)
 
 ## 🖥️ Live Demo
 
-You can view the live version of the site here: [Portfolio Website](https://<your-github-username>.github.io/PortfolioWebsite/)
+You can view the live version of the site here: [Portfolio Website](https://heroic-sopapillas-90f800.netlify.app/)
 
 ---
 
