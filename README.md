@@ -1,8 +1,6 @@
 # Personal-Profolio
 A portfolio website showcasing projects and skills
 
-# Portfolio Website
-
 Welcome to my personal portfolio website! This site showcases my skills, projects, and a little bit about me.
 
 ![Portfolio Screenshot 1](https://github.com/Ruth960/Personal-Profolio/blob/main/profolio%20screnshot1.png) 
